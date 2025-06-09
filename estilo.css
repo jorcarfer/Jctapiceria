@@ -228,6 +228,24 @@ li{
    
 }
 
+.grilla{
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fill, minmax(30%,1fr));
+     place-items: center;
+}
+.item{
+   
+        margin: 1%;
+        align-items: stretch;
+        border: darkgoldenrod 3px solid;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        flex-basis: 100%;
+}
+
+
 
 footer{
 
